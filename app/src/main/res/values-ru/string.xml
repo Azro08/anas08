@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather-Anas</string>
+    <string name="updated_at">обновлено в:</string>
+    <string name="min_temp">мин. темп</string>
+    <string name="max_temp">макс. темп</string>
+    <string name="sunrise">Восход</string>
+    <string name="wind">Ветер</string>
+    <string name="sunset">Закат</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
+    <string name="created_by">Created by</string>
+    <string name="anas">Anas</string>
+</resources>
