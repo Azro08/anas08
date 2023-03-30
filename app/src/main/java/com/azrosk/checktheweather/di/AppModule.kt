@@ -19,14 +19,14 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun provideRetrofit(BASE_URL : String) : Retrofit.Builder =
+    fun provideRetrofit(BASE_URL: String): Retrofit.Builder =
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
 
     @Singleton
     @Provides
-    fun provideRetrofitAllExInstance(retrofit : Retrofit.Builder) : ApiService =
+    fun provideRetrofitAllExInstance(retrofit: Retrofit.Builder): ApiService =
         retrofit
             .build()
             .create(ApiService::class.java)

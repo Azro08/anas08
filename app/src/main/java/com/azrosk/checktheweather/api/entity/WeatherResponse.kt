@@ -1,6 +1,10 @@
-package com.azrosk.checktheweather.models
+package com.azrosk.checktheweather.api.entity
 
 
+import com.azrosk.checktheweather.models.Main
+import com.azrosk.checktheweather.models.Sys
+import com.azrosk.checktheweather.models.Weather
+import com.azrosk.checktheweather.models.Wind
 import com.google.gson.annotations.SerializedName
 
 data class WeatherResponse(
